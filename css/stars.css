@@ -1,0 +1,32 @@
+.star-rate{
+    float: left;
+    width:93px;
+}
+.star-rate input{
+    float:right;
+    width:18px;
+}
+.star-rate label{
+    display: none;
+}
+.star-rate:after{
+    content: "";
+    clear: both;
+}
+.star-rate input[type=radio]{
+    display: none;
+}
+.star-rate input[type=radio]+label{
+    width:18px;
+    height: 16px;
+    background: url('../images/stars.png') no-repeat 0 0;
+    cursor: pointer;
+    float:right;
+}
+.star-rate input[type=radio]:checked ~ label{
+    background-position: 0 -16px;
+}
+.star-rate input[type=radio]:hover ~ label{
+    background-position: 0 -16px;
+    opacity: 0.6;
+}
