@@ -26,7 +26,7 @@
 .star-rate input[type=radio]:checked ~ label{
     background-position: 0 -16px;
 }
-.star-rate input[type=radio]:hover ~ label{
+div.star-rate label:hover, div.star-rate label:hover ~ label{
     background-position: 0 -16px;
     opacity: 0.6;
 }
