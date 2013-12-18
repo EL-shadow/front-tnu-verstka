@@ -6,19 +6,18 @@
     float:right;
     width:18px;
 }
-.star-rate label{
-    display: none;
-}
 .star-rate:after{
     content: "";
     clear: both;
 }
-.star-rate input[type=radio]{
+.star-rate input{
     display: none;
 }
+.star-rate label{
+    display:inline-block;
+}
 .star-rate input[type=radio]+label{
-	display:inline-block;
-    width:18px;
+	width:18px;
     height: 16px;
     background: url('../images/stars.png') no-repeat 0 0;
     cursor: pointer;

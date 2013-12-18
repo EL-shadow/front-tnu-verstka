@@ -1,0 +1,6 @@
+.star-rate input{
+    display: inline-block;
+}
+div.star-rate label{
+    display: none;
+}
