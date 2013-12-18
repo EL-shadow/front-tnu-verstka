@@ -17,6 +17,7 @@
     display: none;
 }
 .star-rate input[type=radio]+label{
+	display:inline-block;
     width:18px;
     height: 16px;
     background: url('../images/stars.png') no-repeat 0 0;
